@@ -4,38 +4,38 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
 
-    section Planning (Jul – Sep 2026)
+    section Planning & Proposal (Jul – Sep 2026)
 
-    Topic Selection & Scope Definition   :p1, 2026-07-01, 30d
-    Research Questions & Objectives      :p2, 2026-08-01, 30d
-    Literature Review & Framework        :p3, 2026-09-01, 60d
-    Proposal Finalised                  :milestone, m1, 2026-10-31, 0d
+    Topic Selection & Scope Definition     :p1, 2026-07-01, 25d
+    Research Questions & Objectives        :p2, 2026-07-25, 25d
+    Literature Review (core phase)         :p3, 2026-08-15, 75d
+    Proposal Submission                    :milestone, m1, 2026-10-30, 0d
 
-    section Development (Nov – Jan 2027)
+    section System Development (Nov – Jan 2027)
 
-    Simulation Environment Setup         :p4, 2026-11-01, 45d
-    Baseline Traffic Control             :p5, 2026-12-01, 45d
-    Edge AI + IoT Architecture           :p6, 2027-01-01, 60d
-    System Testing & Integration         :p7, 2027-02-01, 20d
-    System Ready for Experiments         :milestone, m2, 2027-02-20, 0d
+    Simulation Environment Setup           :p4, 2026-11-01, 40d
+    Baseline Traffic Model                 :p5, 2026-11-20, 40d
+    Edge AI + IoT Architecture             :p6, 2026-12-15, 55d
+    System Integration Testing             :p7, 2027-02-01, 20d
+    Ready for Experiments                  :milestone, m2, 2027-02-20, 0d
 
-    section Experiments (Feb – Apr 2027)
+    section Experimentation (Feb – Apr 2027)
 
-    Experiment Design                    :p8, 2027-02-21, 30d
-    Simulation Runs & Data Collection    :p9, 2027-03-15, 60d
-    Data Processing                     :p10, 2027-05-15, 15d
-    Dataset Finalised                   :milestone, m3, 2027-05-30, 0d
+    Experiment Design                      :p8, 2027-02-01, 25d
+    Simulation Runs                        :p9, 2027-02-20, 60d
+    Data Collection                        :p10, 2027-03-15, 45d
+    Dataset Finalised                      :milestone, m3, 2027-04-30, 0d
 
     section Analysis (May – Jun 2027)
 
-    Performance Evaluation               :p11, 2027-05-31, 30d
-    Comparative Analysis                 :p12, 2027-06-15, 30d
-    Interpretation & Validation          :p13, 2027-06-25, 15d
+    Performance Evaluation                 :p11, 2027-05-01, 30d
+    Comparative Analysis                   :p12, 2027-05-20, 30d
+    Interpretation of Results              :p13, 2027-06-10, 20d
 
-    section Writing (Jun – Jul 2027)
+    section Writing & Submission (Jun – Jul 2027)
 
-    Thesis Writing                       :p14, 2027-06-01, 30d
-    Revision & Proofreading              :p15, 2027-06-20, 20d
-    Final Submission Prep                :p16, 2027-07-01, 7d
-    Final Submission                    :milestone, final, 2027-07-01, 0d
+    Thesis Writing (Main Draft)            :p14, 2027-06-01, 30d
+    Revision & Supervisor Feedback         :p15, 2027-06-20, 20d
+    Final Formatting & Submission Prep     :p16, 2027-07-01, 10d
+    Final Submission                      :milestone, final, 2027-07-01, 0d
 ```
