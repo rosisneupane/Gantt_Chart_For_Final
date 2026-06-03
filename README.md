@@ -1,51 +1,60 @@
 ```mermaid
 gantt
-    title 12-Month Thesis Project Timeline (1 Jul 2026 – 1 Jul 2027)
-    dateFormat YYYY-MM-DD
-    axisFormat %b %Y
+    title 12-Month Research Thesis Timeline (1 Jul 2026 – 1 Jul 2027)
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %Y
 
-    section Phase 1: Planning & Literature (Jul – Sep 2026)
+    %% ------------------------
+    %% Planning & Literature Review
+    %% ------------------------
+    section Planning & Literature Review
+    Initial planning & scoping (2w)          :done, plan1, 2026-07-01, 2w
+    Detailed literature review (10w)         :active, lit1, 2026-07-08, 10w
+    Research proposal writing (4w)           :prop1, 2026-07-22, 4w
+    Proposal approved (milestone)            :milestone, m_proposal, 2026-08-19, 1d
 
-    Topic Finalisation & Proposal Setup     :p1, 2026-07-01, 20d
-    Research Questions & Method Design      :p2, 2026-07-15, 25d
-    Literature Review (ongoing)             :p3, 2026-07-20, 75d
+    %% ------------------------
+    %% System Design & Development
+    %% ------------------------
+    section System Design & Development
+    System architecture & requirements (6w)  :arch1, 2026-08-05, 6w
+    Simulation environment setup (6w)        :sim1, 2026-08-19, 6w
+    Edge AI/IoT high-level design (5w)       :design_edge1, 2026-09-02, 5w
+    System design ready (milestone)          :milestone, m_system_ready, 2026-10-07, 1d
 
-    Proposal Submission                     :milestone, m1, 2026-09-30, 0d
+    %% ------------------------
+    %% Implementation
+    %% ------------------------
+    section Implementation
+    Baseline model implementation (6w)       :impl_base, 2026-09-09, 6w
+    Edge AI/IoT prototype implementation (8w):impl_edge, 2026-10-07, 8w
+    Integration & initial debugging (4w)     :impl_int, 2026-11-04, 4w
+    System ready for experiments (milestone) :milestone, m_impl_ready, 2026-12-02, 1d
 
+    %% ------------------------
+    %% Experimentation
+    %% ------------------------
+    section Experimentation
+    Dataset collection & preprocessing (8w)  :data1, 2026-10-14, 8w
+    Dataset complete (milestone)             :milestone, m_data_done, 2026-12-09, 1d
+    Pilot experiments & parameter tuning (6w):exp1, 2026-12-02, 6w
+    Full experiments & simulation runs (8w)  :exp2, 2027-01-13, 8w
 
-    section Phase 2: System Design & Setup (Aug – Nov 2026)
+    %% ------------------------
+    %% Analysis
+    %% ------------------------
+    section Analysis
+    Quantitative analysis & evaluation (6w)  :analysis1, 2027-01-27, 6w
+    Result interpretation & discussion (6w)  :analysis2, 2027-02-24, 6w
 
-    Simulation Environment Setup            :p4, 2026-08-15, 45d
-    Baseline Traffic Model Implementation    :p5, 2026-09-01, 45d
-    Edge AI + IoT Architecture Design       :p6, 2026-09-20, 60d
-
-
-    section Phase 3: Implementation & Development (Nov 2026 – Jan 2027)
-
-    System Integration & Debugging          :p7, 2026-11-15, 40d
-    Baseline vs AI Controller Testing       :p8, 2026-12-01, 45d
-
-
-    section Phase 4: Experiments & Data (Jan – Mar 2027)
-
-    Experiment Design & Scenarios           :p9, 2027-01-10, 25d
-    Simulation Runs (Main Data Collection)  :p10, 2027-02-01, 60d
-
-    Dataset Finalisation                    :milestone, m2, 2027-03-31, 0d
-
-
-    section Phase 5: Analysis (Mar – May 2027)
-
-    Performance Metrics Calculation         :p11, 2027-03-15, 30d
-    Comparative & Statistical Analysis      :p12, 2027-04-01, 45d
-    Interpretation of Results               :p13, 2027-05-01, 30d
-
-
-    section Phase 6: Writing & Thesis Completion (May – Jul 2027)
-
-    Thesis Writing (continuous)             :p14, 2027-04-15, 75d
-    Supervisor Feedback & Revisions         :p15, 2027-06-15, 30d
-    Final Formatting & Submission Prep      :p16, 2027-06-25, 7d
-
-    Final Submission                        :milestone, final, 2027-07-01, 0d
+    %% ------------------------
+    %% Writing & Submission
+    %% ------------------------
+    section Writing & Submission
+    Early chapters drafting (Intro/Related Work) (8w) :write1, 2026-10-21, 8w
+    Methods & experiments chapters (8w)               :write2, 2027-01-06, 8w
+    Results, discussion & conclusion (6w)             :write3, 2027-02-24, 6w
+    Revision & supervisor feedback (6w)               :write4, 2027-04-07, 6w
+    Final formatting & proofread (2w)                 :write5, 2027-05-19, 2w
+    Thesis submitted (milestone)                      :milestone, m_submit, 2027-06-01, 1d
 ```
