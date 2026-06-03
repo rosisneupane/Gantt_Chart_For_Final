@@ -1,41 +1,51 @@
 ```mermaid
 gantt
-    title Research Project Timeline (1 Jul 2026 – 1 Jul 2027)
+    title 12-Month Thesis Project Timeline (1 Jul 2026 – 1 Jul 2027)
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
 
-    section Planning & Proposal (Jul – Sep 2026)
+    section Phase 1: Planning & Literature (Jul – Sep 2026)
 
-    Topic Selection & Scope Definition     :p1, 2026-07-01, 25d
-    Research Questions & Objectives        :p2, 2026-07-25, 25d
-    Literature Review (core phase)         :p3, 2026-08-15, 75d
-    Proposal Submission                    :milestone, m1, 2026-10-30, 0d
+    Topic Finalisation & Proposal Setup     :p1, 2026-07-01, 20d
+    Research Questions & Method Design      :p2, 2026-07-15, 25d
+    Literature Review (ongoing)             :p3, 2026-07-20, 75d
 
-    section System Development (Nov – Jan 2027)
+    Proposal Submission                     :milestone, m1, 2026-09-30, 0d
 
-    Simulation Environment Setup           :p4, 2026-11-01, 40d
-    Baseline Traffic Model                 :p5, 2026-11-20, 40d
-    Edge AI + IoT Architecture             :p6, 2026-12-15, 55d
-    System Integration Testing             :p7, 2027-02-01, 20d
-    Ready for Experiments                  :milestone, m2, 2027-02-20, 0d
 
-    section Experimentation (Feb – Apr 2027)
+    section Phase 2: System Design & Setup (Aug – Nov 2026)
 
-    Experiment Design                      :p8, 2027-02-01, 25d
-    Simulation Runs                        :p9, 2027-02-20, 60d
-    Data Collection                        :p10, 2027-03-15, 45d
-    Dataset Finalised                      :milestone, m3, 2027-04-30, 0d
+    Simulation Environment Setup            :p4, 2026-08-15, 45d
+    Baseline Traffic Model Implementation    :p5, 2026-09-01, 45d
+    Edge AI + IoT Architecture Design       :p6, 2026-09-20, 60d
 
-    section Analysis (May – Jun 2027)
 
-    Performance Evaluation                 :p11, 2027-05-01, 30d
-    Comparative Analysis                   :p12, 2027-05-20, 30d
-    Interpretation of Results              :p13, 2027-06-10, 20d
+    section Phase 3: Implementation & Development (Nov 2026 – Jan 2027)
 
-    section Writing & Submission (Jun – Jul 2027)
+    System Integration & Debugging          :p7, 2026-11-15, 40d
+    Baseline vs AI Controller Testing       :p8, 2026-12-01, 45d
 
-    Thesis Writing (Main Draft)            :p14, 2027-06-01, 30d
-    Revision & Supervisor Feedback         :p15, 2027-06-20, 20d
-    Final Formatting & Submission Prep     :p16, 2027-07-01, 10d
-    Final Submission                      :milestone, final, 2027-07-01, 0d
+
+    section Phase 4: Experiments & Data (Jan – Mar 2027)
+
+    Experiment Design & Scenarios           :p9, 2027-01-10, 25d
+    Simulation Runs (Main Data Collection)  :p10, 2027-02-01, 60d
+
+    Dataset Finalisation                    :milestone, m2, 2027-03-31, 0d
+
+
+    section Phase 5: Analysis (Mar – May 2027)
+
+    Performance Metrics Calculation         :p11, 2027-03-15, 30d
+    Comparative & Statistical Analysis      :p12, 2027-04-01, 45d
+    Interpretation of Results               :p13, 2027-05-01, 30d
+
+
+    section Phase 6: Writing & Thesis Completion (May – Jul 2027)
+
+    Thesis Writing (continuous)             :p14, 2027-04-15, 75d
+    Supervisor Feedback & Revisions         :p15, 2027-06-15, 30d
+    Final Formatting & Submission Prep      :p16, 2027-06-25, 7d
+
+    Final Submission                        :milestone, final, 2027-07-01, 0d
 ```
